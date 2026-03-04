@@ -18,7 +18,7 @@ Thumbs.db
 # IDE files
 .vscode/
 .idea/
-
+git config --global user.name "Muhammedkerek"
 # Build folders
 dist/
 build/
