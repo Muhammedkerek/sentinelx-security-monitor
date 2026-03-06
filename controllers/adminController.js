@@ -1,4 +1,4 @@
-const SecurityLog = require("../model/SecurityLogSchema");
+const SecurityLog = require("../model/securityLogSchema");
 
 exports.getSecurityLogs = async (req, res) => {
   try {

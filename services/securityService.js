@@ -1,5 +1,5 @@
 const redis = require("../config/redis");
-const SecurityLog = require("../model/SecurityLogSchema");
+const SecurityLog = require("../model/securityLogSchema");
 
 async function handleFailedLogin(ip, req, io) {
   const attempts = await redis.incr(`fail:${ip}`);
